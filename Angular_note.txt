@@ -1,0 +1,12 @@
+Data Binding - data binding communicate with component class and view templete, vice-versa.
+One way data binding - data can be access component to view or view to component vice-versa,
+Two Way data binding - is bind data component class to view template or view template to component class, it is conbination property binding and event binding.
+String Interpolation -show data in template view using double curly bracket {{}}.
+Property Binding - Using property Binding we can change DOM object like - button enable or disable , show a paragrape or hide paragrape.
+Few html attribute binding are different like - aria-hidden we should use like this [attr.aria-hidden]="true/false"
+Event-Binding - this time data control from view templete to class component like - (input),(onchange) etc.
+Tow way binding - is combination of property binding and event binding.
+Derective - we use directive for manupulate DOM, 
+---component directive - it is simple angular component of Templete.
+---attribute directive - it use to change apperence or behavier of a DOM Element. ex. ngStyle, ngClass.
+---structural directive - it is use for add or remove a DOM Element of a webpage. ex - ngIf, ngFor, ngSwitch
