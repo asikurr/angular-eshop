@@ -9,4 +9,6 @@ export class FilterComponent {
   @Input() alls: number = 0;
   @Input() inStock: number = 0;
   @Input() outStock: number = 0;
+
+  selectedFilterRadioButton : string = 'all';
 }
