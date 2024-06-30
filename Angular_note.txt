@@ -9,4 +9,24 @@ Tow way binding - is combination of property binding and event binding.
 Derective - we use directive for manupulate DOM, 
 ---component directive - it is simple angular component of Templete.
 ---attribute directive - it use to change apperence or behavier of a DOM Element. ex. ngStyle, ngClass.
----structural directive - it is use for add or remove a DOM Element of a webpage. ex - ngIf, ngFor, ngSwitch
+---structural directive - it is use for add or remove a DOM Element of a webpage. ex - ngIf, ngFor, ngSwitch, etc
+Custome property Create and binding - @Input() -- 
+Custome property Create and binding - @Output() -- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I am an ideal candidate for the .NET developer position due to my extensive experience with the .NET framework, proficiency in C#, and expertise in web development with ASP.NET, MVC, and .NET Core. Additionally, my excellent communication skills and teamwork abilities enable effective collaboration with cross-functional team.
