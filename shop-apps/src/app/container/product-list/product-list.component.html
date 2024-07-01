@@ -2,8 +2,21 @@
   [alls]="totalProduct"
   [inStock]="stockAvailable"
   [outStock]="outStock"
+  (onSelectChangeRadio)="onChangeFilterdata($event)"
 >
 </app-filter>
 <div class="eshop--product--container">
-  <app-product *ngFor="let item of products" [product]="item"></app-product>
+  <!-- *ngIf="
+        onSelectRadioButton === 'all' ||
+        item.is_in_inventory.toString() === onSelectRadioButton
+      " -->
+  <div *ngFor="let item of products">
+    <app-product
+      [product]="item"
+      *ngIf="item.name.toLowerCase().includes(search)"
+    >
+    </app-product>
+
+
+  </div>
 </div>

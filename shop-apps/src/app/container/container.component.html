@@ -9,8 +9,8 @@
     <span>{{addToCart}}</span>
     <button (click)="increaseValue()">+</button> -->
 
-    <app-search></app-search>
-    <product-list></product-list>
+    <app-search (inputSearchText) = "getSearchTextFromChild($event)"></app-search>
+    <product-list [search]="searchText"></product-list>
 
 </div>
 

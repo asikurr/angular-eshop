@@ -10,8 +10,9 @@ Derective - we use directive for manupulate DOM,
 ---component directive - it is simple angular component of Templete.
 ---attribute directive - it use to change apperence or behavier of a DOM Element. ex. ngStyle, ngClass.
 ---structural directive - it is use for add or remove a DOM Element of a webpage. ex - ngIf, ngFor, ngSwitch, etc
-Custome property Create and binding - @Input() -- 
-Custome property Create and binding - @Output() -- 
+Custome property Create and binding - @Input() -- Data pass parent to child component.
+Custome property/event Create and binding - @Output() -- Data pass child component to parent component , with eventemiter;
+Data pass when conponent are not child-parent - first send data child to parent using @Output and  then send to child component using @@Input decorator.
 
 
 

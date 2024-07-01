@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'product-list',
@@ -598,8 +598,16 @@ export class ProductListComponent {
     },
   ];
 
+
+  @Input() search : string = '';
+
   totalProduct = this.products.length;
   stockAvailable = this.products.filter((x) => x.is_in_inventory === true)
     .length;
   outStock = this.products.filter((x) => x.is_in_inventory === false).length;
+  onSelectRadioButton: string = 'all';
+  onChangeFilterdata(value: string) {
+    this.onSelectRadioButton = value;
+    console.log(value);
+  }
 }
