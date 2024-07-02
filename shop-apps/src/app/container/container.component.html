@@ -10,7 +10,8 @@
     <button (click)="increaseValue()">+</button> -->
 
     <app-search (inputSearchText) = "getSearchTextFromChild($event)"></app-search>
-    <product-list [search]="searchText"></product-list>
+    <product-list [search]="searchText" #selectSingleProduct></product-list>
+    <product-details *ngIf="selectSingleProduct.selectedProduct" [proListComponent]="selectSingleProduct"></product-details>
 
 </div>
 

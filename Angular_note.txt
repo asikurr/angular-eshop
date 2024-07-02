@@ -13,6 +13,9 @@ Derective - we use directive for manupulate DOM,
 Custome property Create and binding - @Input() -- Data pass parent to child component.
 Custome property/event Create and binding - @Output() -- Data pass child component to parent component , with eventemiter;
 Data pass when conponent are not child-parent - first send data child to parent using @Output and  then send to child component using @@Input decorator.
+Reference variable - we use reference variable like - #inputSearch in input fields.
+ViewChild() - get reference from DOM Element , it take first element match reference. it return a single element.
+ViewChildren() - also get reference from DOM Element, it return a LIST from dom element.
 
 
 

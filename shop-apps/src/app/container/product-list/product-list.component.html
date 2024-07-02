@@ -10,7 +10,7 @@
         onSelectRadioButton === 'all' ||
         item.is_in_inventory.toString() === onSelectRadioButton
       " -->
-  <div *ngFor="let item of products">
+  <div *ngFor="let item of products" (click) = "selectedProduct = item">
     <app-product
       [product]="item"
       *ngIf="item.name.toLowerCase().includes(search)"
